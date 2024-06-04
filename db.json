@@ -1,0 +1,26 @@
+{
+	"messages": [
+		{
+			"id": "1",
+			"content": "This is my React stater project"
+		},
+		{
+			"id": "2",
+			"content": "This data has been fetched from json server"
+		}
+	],
+	"icons": [
+		{
+			"name": "bun",
+			"content": "This is bun"
+		},
+		{
+			"name": "typescript",
+			"content": "This is typescript"
+		},
+		{
+			"name": "react",
+			"content": "This is react"
+		}
+	]
+}
