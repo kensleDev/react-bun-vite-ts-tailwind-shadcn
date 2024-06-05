@@ -16,7 +16,7 @@ export function TechIconBeams() {
 
 	return (
 		<div
-			className="relative flex w-full max-w-[800px] items-center justify-center overflow-hidden bg-background p-10 my-10"
+			className="relative flex w-[99vw] max-w-[500px] items-center justify-center overflow-hidden p-10"
 			ref={containerRef}
 		>
 			<div className="flex h-full w-full flex-col items-stretch justify-between gap-10">
@@ -56,7 +56,7 @@ export function TechIconBeams() {
 				curvature={-75}
 				endYOffset={-10}
 				reverse={true}
-				className="bg-primary border-secondary border-1"
+				className="bg-primary "
 			/>
 			<AnimatedBeam
 				containerRef={containerRef}
@@ -104,7 +104,7 @@ const Circle = forwardRef<
 		<div
 			ref={ref}
 			className={cn(
-				"z-10 flex h-12 w-12 items-center justify-center rounded-full border-2 bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
+				"z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
 				className,
 			)}
 		>
